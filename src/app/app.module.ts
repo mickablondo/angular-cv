@@ -1,14 +1,25 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
+import { FormationComponent } from './formation/formation.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FormationComponent,
+    ExperienceComponent,
+    ProjectComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot([
+      {path: 'experiences', component: ExperienceComponent},
+      {path: 'formations', component: FormationComponent},
+      {path: 'projects', component: ProjectComponent},
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]

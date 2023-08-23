@@ -1,0 +1,31 @@
+{
+    "experiences" : [
+        {
+            "company": "entreprise1",
+            "link": "",
+            "position": "Full Stack Developer",
+            "from": "04/01/2018",
+            "to": null,
+            "description": "",
+            "techno": ""
+        },
+        {
+            "company": "entreprise2",
+            "link": "",
+            "position": "Full Stack Developer",
+            "from": "04/01/2018",
+            "to": null,
+            "description": "",
+            "techno": ""
+        },
+        {
+            "company": "entreprise3",
+            "link": "",
+            "position": "Full Stack Developer",
+            "from": "04/01/2018",
+            "to": null,
+            "description": "",
+            "techno": ""
+        }
+    ]
+}
