@@ -1,5 +1,7 @@
 # AngularCv
 
+<img src="https://img.freepik.com/free-vector/realistic-construction-sign-background_23-2148166584.jpg?w=1380&t=st=1692817670~exp=1692818270~hmac=def7786924bf77594267075c544234d0aafa97c2394895a45284212343f1f339" />
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
 
 ## Development server
