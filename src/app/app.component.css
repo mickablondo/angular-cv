@@ -31,3 +31,8 @@ footer{
     background-color:cyan;
     width:100%;
 }
+
+nav {
+    display: flex;
+    align-items: center;
+}

@@ -1,8 +1,17 @@
 <nav>
-    <img class="image" src="https://github.com/mickablondo/cv/assets/36310658/2cd167c2-2f82-43e5-8338-fd229ac9906a" alt="Avatar" style="width:200px">
-    <a class="button" routerLink="/experiences" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Expériences</a> |
-    <a class="button" routerLink="/formations" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Formations</a> |
-    <a class="button" routerLink="/projects" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Projets réalisés</a>
+    <div style="width:5%; padding-left: 1%;">
+      <img class="image" layout-align="center center" src="https://github.com/mickablondo/cv/assets/36310658/2cd167c2-2f82-43e5-8338-fd229ac9906a" alt="Avatar" style="width:200px">
+    </div>
+    <div style="width:95%;  text-align: center !important;">
+        <a class="button" routerLink="/experiences" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Expériences</a> |
+        <a class="button" routerLink="/formations" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Formations</a> |
+        <a class="button" routerLink="/projects" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Projets réalisés</a>
+    </div>
+    <div style="padding-right: 1%;">
+      <a href="https://github.com/mickablondo">
+        <i class="fa fa-github" style="font-size:50px"></i>
+      </a>
+    </div>
 </nav>
 <h1>CV</h1>
 <router-outlet></router-outlet>
