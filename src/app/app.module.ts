@@ -16,9 +16,10 @@ import { ProjectComponent } from './project/project.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
+      { path: '', redirectTo: '/experiences', pathMatch: 'full' },
       {path: 'experiences', component: ExperienceComponent},
       {path: 'formations', component: FormationComponent},
-      {path: 'projects', component: ProjectComponent},
+      {path: 'projects', component: ProjectComponent}
     ])
   ],
   providers: [],
