@@ -4,14 +4,18 @@
             "name": "PadelConnect",
             "link": "https://github.com/mickablondo/PadelConnect",
             "description": "PadelConnect est une application décentralisée de gestion de tournois de Padel permettant de créer une communauté autour de ce sport en proposant notamment un réseau social décentralisé.",
-            "techno": "React;NextJS;Solidity;Hardhat;Wagmi;Rainbowkit;Viem",
+            "techno": [
+                "React","NextJS","Solidity","Hardhat","Wagmi","Rainbowkit","Viem"
+            ],
             "year": "2023"
         },
         {
-            "name": "Vote-dApp",
+            "name": "Voting dApp",
             "link": "https://github.com/mickablondo/Voting-dApp",
             "description": "Application décentralisée de vote.",
-            "techno": "React;Solidity;Truffle",
+            "techno": [
+                "React","Solidity","Truffle"
+            ],
             "year": "2023"
         }
     ]

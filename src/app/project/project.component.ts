@@ -14,5 +14,6 @@ export class ProjectComponent {
 
   ngOnInit() {
     this.projects = this.projectProvider.getProjects();
+    console.log(this.projects)
   }
 }
