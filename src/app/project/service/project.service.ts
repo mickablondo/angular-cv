@@ -15,4 +15,8 @@ export class ProjectService {
     getProjectsFromFile() {
         JSONProject.projects.forEach((project: Project) => this.projects.push(project))
     }
+
+    getProjects() {
+        return this.projects;
+    }
 }
