@@ -6,6 +6,7 @@ import { FormationComponent } from './formation/formation.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjectComponent } from './project/project.component';
 import { MatCardModule } from '@angular/material/card';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { MatCardModule } from '@angular/material/card';
   imports: [
     MatCardModule,
     BrowserModule,
+    HttpClientModule,
     RouterModule.forRoot([
       { path: '', redirectTo: '/experiences', pathMatch: 'full' },
       {path: 'experiences', component: ExperienceComponent},
